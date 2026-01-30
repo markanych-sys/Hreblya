@@ -1,0 +1,172 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+* {
+    margin: 0px;
+    box-sizing: border-box
+}
+       
+    body {
+            max-width: 1024px;
+            font-family: Roboto, Arial, sans-serif;
+            margin: 0px auto;
+            background-color: #F1E9D2;
+            color: #333;
+            padding: 0px;
+        }
+    h1, h2, h3
+        {
+            color: #2c3e50;
+        }
+
+    p   
+        {
+            line-height: 1.6;
+            text-indent: 30px;
+        }
+
+/* Початок футера */
+
+        header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 40px;
+            /* border: #333 solid 2px; */
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+            background-color: rgb(136, 176, 75);
+            width: 100%;
+            border-radius: 0px 0px 50px 50px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: rgb(241, 240, 236);
+            border: rgb(136, 176, 75) solid 2px;
+            background-color: rgb(149, 82, 81);
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 15px 15px;
+            margin: 5px;
+        }
+        .menu a:hover {
+            color: rgb(241, 240, 236);
+            background-color: rgb(102, 103, 171);
+            border: rgb(241, 240, 236) solid 2px;
+            padding: 15px 15px;
+            border-radius: 20px;
+        }
+
+        img
+        {
+            /* display: block; */
+            width: 260px;
+            margin: 20px;
+            /* border: #333 solid 2px; */
+        }
+
+/* Кінець футера */
+
+/* Початок секцій */
+
+section
+    {
+        /* border: #333 solid 2px; */
+        background-color: rgb(241, 240, 236);
+        border-radius: 50px;
+        margin: 25px 0;
+        padding: 5% 50px;
+        text-align: center;
+    }
+    .info
+        {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        } 
+        .icon-style
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            background-color: rgb(232, 232, 252);
+            border-radius: 50px;
+            margin: 25px;
+        }
+        .icons
+        {
+            width: 50px;
+            margin-bottom: 20px;
+            background-color: rgb(241, 240, 236);
+            /* border-radius: 50px; */
+        }
+
+    .info-block
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 260px;
+            height: 260px;
+            margin: 15px;
+            border-bottom: rgb(102, 103, 171) solid 10px;
+            background-color: rgb(136, 176, 75);
+            color: rgb(241, 240, 236);
+            border-radius: 20px;
+            padding: 15px 25px;
+            font-size: 18pt;
+            font-weight: bold;
+            /* text-align: center; */
+        }  
+
+    #proselo
+        {
+            display: block;
+            background-color: rgb(241, 240, 236);
+            padding: 5% 50px;
+            margin: 25px 0;
+            border-radius: 50px;
+            font-size: 14pt;
+            text-align: justify;
+        }
+
+    #Hystory
+        {
+            display: block;
+            background-color: rgb(241, 240, 236);
+            padding: 5% 50px;
+            margin: 25px 0;
+            border-radius: 50px;
+            font-size: 14pt;
+            text-align: justify;
+        }
+
+    #Place
+        {
+            display: block;
+            background-color: rgb(241, 240, 236);
+            padding: 5% 50px;
+            margin: 25px 0;
+            border-radius: 50px;
+            font-size: 14pt;
+            text-align: justify;
+        }
+
+    #Contacts
+        {
+            display: block;
+            background-color: rgb(241, 240, 236);
+            padding: 5% 50px;
+            margin: 25px 0;
+            border-radius: 50px;
+            font-size: 14pt;
+            text-align: justify;
+        }
